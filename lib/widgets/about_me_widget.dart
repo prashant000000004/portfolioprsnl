@@ -71,7 +71,7 @@ class AboutMeWidget extends StatelessWidget {
               animateFromLeft(
                 DownloadResumeButton(
                   resumeUrl:
-                      "https://drive.google.com/uc?export=download&id=1-QA_LGBGcYhvtWeyapMAyvY1HTWPWo9J",
+                      "https://drive.google.com/uc?export=download&id=10dY9YHjku6uGIxlaTbnXd-kwo-t9BVmL",
                 ),
               ),
             ],
