@@ -6,12 +6,9 @@ class MainText extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final screenWidth = MediaQuery.of(context).size.width;
-    return Positioned(
-      top: screenWidth * 0.87,
-      left: 0,
-      right: 0,
-      child: Container(
-        height: 100,
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 40.0),
+      child: Center(
         child: Text(
           'APPLICATION DEVELOPER',
           textAlign: TextAlign.center,
